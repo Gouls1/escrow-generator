@@ -1,0 +1,196 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #34333a;
+  display: flex;
+  font-family: 'Muli', sans-serif;
+  width: 100vw;
+}
+
+.page {
+  overflow: auto;
+  width: 100vw;
+  padding-top: 9rem;
+}
+
+.explain {
+  color: white;
+  text-align: center;
+  padding-top: 2rem;
+  margin: auto;
+  width: 50%;
+}
+
+.escrow-description {
+  text-align: center;
+  margin: 20px;
+  float: left;
+  width: 30%;
+  flex-direction: column;
+  padding: 40px;
+  border: 5px solid #545251;
+  background-color:rgb(119, 118, 118);
+  color: white;
+  border-radius: 0.35rem;    
+}
+
+a{
+    color: #f58427;
+    text-decoration: none;
+    font-size: x-large;
+    text-decoration: underline;
+}
+
+.locker-description {
+  text-align: center;
+  margin: 20px;
+  float: left;
+  width: 30%;
+  flex-direction: column;
+  padding: 40px;
+  border: 5px solid #545251;
+  background-color:rgb(119, 118, 118);
+  color: white;
+  border-radius: 0.35rem;    
+}
+
+.vesting-description {
+  text-align: center;
+  margin: 20px;
+  float: right;
+  width: 30%;
+  flex-direction: column;
+  padding: 40px;
+  border: 5px solid #545251;
+  background-color:rgb(119, 118, 118);
+  color: white;
+  border-radius: 0.35rem;    
+}
+
+.contract {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 4rem;
+  width: 50%;
+  padding: 40px;
+  border: 5px solid #53504f;
+  background-color: rgb(119, 118, 118);
+  border-radius: 1rem;
+}
+
+.existing-contracts {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 4rem;
+  width: 50%;
+  padding: 5px;
+  border: 5px solid #53504f;
+  background-color: rgb(119, 118, 118);
+  border-radius: 1rem;
+}
+
+h1 {
+  color: rgb(155, 155, 173);
+  margin-top: 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+label {
+  color: white;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  text-transform: uppercase;
+  margin: 20px;
+  margin-bottom: 40px;
+
+}
+
+input[type="text"] {
+  padding: 6px;
+  font-size: 18px;
+  margin-top: 9px;
+  background-color: #eee;
+}
+
+.button {
+  background-color: #e08134;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 20px;
+  padding: 9px 25px;
+  font-size: 14px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+.claim-button {
+  background-color: #368e34;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 20px;
+  padding: 9px 25px;
+  font-size: 14px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+.approve-button {
+  background-color: #368e34;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 20px;
+  padding: 9px 25px;
+  font-size: 14px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+.cancel-button {
+  background-color: #ca3131;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 20px;
+  padding: 9px 25px;
+  font-size: 14px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+.existing-contract ul {
+  padding: 10px;
+  margin: 20px;
+  background-color: #e6dfdf;
+  border: 5px solid #53504f;
+  border-radius: 1rem;
+}
+
+.existing-contract ul > li {
+  list-style: none;
+  display: flex;
+  margin: 10px;
+}
+
+.existing-contract ul > li > div {
+  margin: 0 5px;
+}
+
+.existing-contract ul > li > :first-child {
+  font-weight: bold;
+}
+
+.existing-contract .complete {
+  color: #5aa75a;
+  text-align: center;
+}
